@@ -19,7 +19,7 @@ export default function AppRoutes({ setLogin, login }) {
         <Route path="/Category/:id" element={<Category />} />
       </Route>
 
-      <Route path="*" element={<Page404 />} />
+      <Route path="*" element={<Page404 />} /> 
     </Routes>
   )
 }
